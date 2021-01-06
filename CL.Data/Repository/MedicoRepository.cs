@@ -36,25 +36,24 @@ namespace CL.Data.Repository
 
         public async Task<Medico> InsertMedicoAsync(Medico medico)
         {
-            await context.Medicos.AddAsync(medico);
             await InsertMedicoEspecialidades(medico);
+            await context.Medicos.AddAsync(medico);
             await context.SaveChangesAsync();
             return medico;
         }
 
         private async Task InsertMedicoEspecialidades(Medico medico)
         {
+            var especialidadesConsultadas = new List<Especialidade>();
             foreach (var especialidade in medico.Especialidades)
             {
                 var especialidadeConsultada = await
                 	context.Especialidades
-                	.AsNoTracking()
-                	.FirstAsync(p => p.Id == especialidade.Id);
-                	
-                context.Entry(especialidade)
-                	.CurrentValues
-                	.SetValues(especialidadeConsultada);
+                	.FindAsync(especialidade.Id);
+
+                especialidadesConsultadas.Add(especialidadeConsultada);
             }
+            medico.Especialidades = especialidadesConsultadas;
         }
 
         public async Task<Medico> UpdateMedicoAsync(Medico medico)
