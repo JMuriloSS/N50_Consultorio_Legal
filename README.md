@@ -1,4 +1,6 @@
 # Consultório Legal
+Exercícios baseados nos vídeos publicados por Francis Silveira Andrade:
+https://www.youtube.com/user/francissasterr/videos
 
 ## Os exemplos postados aqui, são apenas estudos referentes aos conteúdos dos vídeos.
 
@@ -19,5 +21,4 @@
 
 
 Meus agradecimentos ao Francis por compartilhar o seu conhecimento.
-Exercícios baseados nos vídeos publicados por Francis Silveira Andrade:
-https://www.youtube.com/user/francissasterr/videos
+
