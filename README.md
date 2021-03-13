@@ -1,9 +1,9 @@
-Acompanhamento dos vÌdeos publicados por Francis Silveira Andrade:
-https://www.youtube.com/user/francissasterr/videos
+(Exerc√≠cios baseados nos v√≠deos publicados por Francis Silveira Andrade:)
+[https://www.youtube.com/user/francissasterr/videos]
 
 N50_Consultorio_Legal
 
-Os exemplos postados aqui, s„o apenas estudos referentes aos conte˙dos dos vÌdeos.
+Os exemplos postados aqui, s√£o apenas estudos referentes aos conte√∫dos dos v√≠deos.
 
 AspNet Core 5.0;
 
