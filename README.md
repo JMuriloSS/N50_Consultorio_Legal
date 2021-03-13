@@ -1,13 +1,9 @@
-(Exercícios baseados nos vídeos publicados por Francis Silveira Andrade:)
-[https://www.youtube.com/user/francissasterr/videos]
+# Consultório Legal
 
-N50_Consultorio_Legal
+## Os exemplos postados aqui, são apenas estudos referentes aos conteúdos dos vídeos.
 
-Os exemplos postados aqui, são apenas estudos referentes aos conteúdos dos vídeos.
-
-AspNet Core 5.0;
-
-Packages in use:
+### AspNet Core 5.0;
+#### Packages in use:
 - Swashbuckle.AspNetCore (Swagger)
 - automapper
 - Fluentvalidation
@@ -23,3 +19,5 @@ Packages in use:
 
 
 Meus agradecimentos ao Francis por compartilhar o seu conhecimento.
+Exercícios baseados nos vídeos publicados por Francis Silveira Andrade:
+https://www.youtube.com/user/francissasterr/videos
