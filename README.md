@@ -8,7 +8,7 @@ https://www.youtube.com/user/francissasterr/videos
 #### Packages in use:
 - Swashbuckle.AspNetCore (Swagger)
 - automapper
-- Fluentvalidation
+- FluentValidation
 - Microsoft.AspNetCore.Mvc
 - Microsoft.AspNetCore.Mvc.NewtonsoftJson
 - Microsoft.EntityFrameworkCore
